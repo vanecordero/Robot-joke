@@ -1,5 +1,6 @@
 import Joke from './Joke';
-import Settings from './settings';
+//import Settings from './robotSettings/settings';
+import SettingButton from './robotSettings/settingButton';
 import ButtonChange from './buttonChange';
 import RobotImg from './robotImage/robotImg';
 import useJoke from 'Hooks/useJoke';
@@ -19,7 +20,8 @@ export default function PrincipalContainer(){
         <section tabIndex="0" className={sty.joke_container}>
           <RobotImg src={imgUrl} className="a" width="50"/>
 
-          <Settings/>
+          {/* <Settings/> */}
+          <SettingButton/>
           
           <Joke joke={jokes}/>
 
