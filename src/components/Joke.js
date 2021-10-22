@@ -1,13 +1,7 @@
-function Joke({type, setup, delivery, joke}) {
-    return ( 
-        <>
-           {
-                (type ==='twopart')? 
-                <p>{setup}<br/>{delivery}</p>
-                :<p>{joke}</p>
-            }
-        </>
-     );
+function Joke({joke}) {
+  return ( 
+      <p>{joke}</p>
+  );
 }
 
 export default Joke;

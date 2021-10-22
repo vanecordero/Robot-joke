@@ -1,4 +1,5 @@
 import React,{ useState } from "react";
+import robot_df from 'img/robot.svg'
 
 const Context = React.createContext({})
 
@@ -6,10 +7,13 @@ const Context = React.createContext({})
 
    const [setting, setSetting] = useState({
     "lang":"en",
-    "category":"Any",
-})
+    "category":"Any"
+    })
+
+   const [imgUrl, setImgUrl] = useState(robot_df)
+   
     return (
-        <Context.Provider value={{setting, setSetting}}>
+        <Context.Provider value={{setting, setSetting,imgUrl, setImgUrl}}>
             {children}
         </Context.Provider>
     )

@@ -1,0 +1,6 @@
+.joke_container{
+    min-height: 90vh;
+}
+.joke_container:focus{
+    outline:0;
+}

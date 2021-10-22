@@ -1,19 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import SettingJokes from './components/SettingJokes';
-import  SettingContext  from './context/settingsContext';
+
+import PrincipalContainer from './components/principalContainer';
+import  {SettingContext}  from 'context/settingsContext';
 
 function App() {
-  
-  
-  
 
   return (
-    <div className="App">
+    <>
       <SettingContext>
-        <SettingJokes/>
+        <PrincipalContainer/>
       </SettingContext>      
-    </div>
+    </>
   );
 }
 

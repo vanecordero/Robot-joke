@@ -1,7 +1,7 @@
-export default function GetJokes({lang="en", category="Any"}={}){
+
+export default function GetJokes({lang, category}={}){
     const apiURL = `https://v2.jokeapi.dev/joke/${category}?lang=${lang}`
 
-   
     return fetch(apiURL)
     .then(res => res.json())
     .then(response =>{  
