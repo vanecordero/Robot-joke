@@ -28,4 +28,4 @@
   
   <h2>🖼️ Screenshots</h2>
   Version 1 - Button random joke, change the language, button joke voice reader and dinamic robot img.
-  <img src="https://user-images.githubusercontent.com/47092867/138564767-02535694-5773-4156-af76-eb8ce2277995.png" />
+  <img src="https://user-images.githubusercontent.com/47092867/138566888-b0e03f26-3d97-4e11-a2da-9c0b6d08145c.png" />
