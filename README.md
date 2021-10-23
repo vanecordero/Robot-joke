@@ -27,5 +27,5 @@
    </ul>
   
   <h2>🖼️ Screenshots</h2>
-  Version 1 - Button random joke, change the language, button joke voice reader 
+  Version 1 - Button random joke, change the language, button joke voice reader and dinamic robor img
   <img src="https://user-images.githubusercontent.com/47092867/138564767-02535694-5773-4156-af76-eb8ce2277995.png" />
