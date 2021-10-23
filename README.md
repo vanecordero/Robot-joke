@@ -1,70 +1,31 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h1>Joke telling bot web app</h1>
+<p>This is my solution for the challenge on <a href="https://www.codementor.io/projects/web/joke-telling-bot-web-app-cjd2eyrfak" target="_blank">Joke telling bot web app</a> on DevProject by codementor</p>
+  
+<h2>🔥 Overview</h2>
+  <h3>The challenge</h3>
+  <p>Build a full-fledged Joke telling robot web app using Web Speech APIs, which can be applied to both web apps and mobile apps.</p>
+  <ul>
+    <li>Users should be able to:
+      <ul>
+        <li>Create a button for the user to generate a random joke.</li>
+        <li>Once the button is clicked, the website will tell the user a random joke.</li>
+        <li>Allow the user to change the language and/or accents of the voice assistant.</li>
+        <li><ul>For an extra challenge
+            <li>Allow the user to hear a joke simply by pressing 'J'</li>
+            <li>Allow the user to hear a joke by saying 'Tell Me A Joke' to the voice assistant</li>
+        </ul></li>
+      </ul>
+    </li>
+  </ul>
+  
+  <h2>🚀 Build with</h2>
+   <ul>
+      <li>React</li>
+      <li>Flexbox (CSS)</li>
+      <li>Web Speech API</li>
+      <li>GH-Pages</li>
+   </ul>
+  
+  <h2>🖼️ Screenshots</h2>
+  Version 1 - Button random joke, change the language, button joke voice reader 
+  <img src="https://user-images.githubusercontent.com/47092867/138564767-02535694-5773-4156-af76-eb8ce2277995.png" />
