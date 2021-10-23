@@ -60,15 +60,16 @@
   /* Medium devices (tablets)*/
 @media (max-width: 992px) {
   
-/* TEXTO */
-.joke_text{
-  font-size: 2rem;
-}
-.robot_img{
-  width: 450px;
-}
+  /* TEXTO */
+  .joke_text{
+    font-size: 2rem;
+  }
+  .robot_img{
+    width: 70%;
+  }
   .joke_container{
-    padding: 0 3rem;
+    padding: 4rem 3rem;    
+    justify-content: start;
   }
   .joke_buttons{
     width: 60%;
@@ -86,23 +87,23 @@
 /* Small devices (landscape /phones,)*/
 @media (max-width: 767px) {
   .joke_container{
-    padding: 0 1rem;
+    padding: 2rem 1rem;    
   }
      /* IMG */
-.robot_img{
-  width: 300px;
-}
-.joke_buttons{
-  width: 95%;
-}
-/* TEXTO */
-.joke_text{
-  font-size: 1rem;
-}
-/* Get Joke button*/
-.joke_button_joke{
-  padding: 0.4rem 1rem;
-  font-size: 1rem;
-}
+  .robot_img{
+    width: 80%;
+  }
+  .joke_buttons{
+    width: 95%;
+  }
+  /* TEXTO */
+  .joke_text{
+    font-size: 1rem;
+  }
+  /* Get Joke button*/
+  .joke_button_joke{
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+  }
 
- }
+}
