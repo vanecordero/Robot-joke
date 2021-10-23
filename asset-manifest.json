@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Robot-joke/static/css/main.6712fc92.chunk.css",
+    "main.js": "/Robot-joke/static/js/main.c35794a7.chunk.js",
+    "main.js.map": "/Robot-joke/static/js/main.c35794a7.chunk.js.map",
+    "runtime-main.js": "/Robot-joke/static/js/runtime-main.f98982eb.js",
+    "runtime-main.js.map": "/Robot-joke/static/js/runtime-main.f98982eb.js.map",
+    "static/js/2.17b16572.chunk.js": "/Robot-joke/static/js/2.17b16572.chunk.js",
+    "static/js/2.17b16572.chunk.js.map": "/Robot-joke/static/js/2.17b16572.chunk.js.map",
+    "static/js/3.c5ec0f9c.chunk.js": "/Robot-joke/static/js/3.c5ec0f9c.chunk.js",
+    "static/js/3.c5ec0f9c.chunk.js.map": "/Robot-joke/static/js/3.c5ec0f9c.chunk.js.map",
+    "index.html": "/Robot-joke/index.html",
+    "static/css/main.6712fc92.chunk.css.map": "/Robot-joke/static/css/main.6712fc92.chunk.css.map",
+    "static/js/2.17b16572.chunk.js.LICENSE.txt": "/Robot-joke/static/js/2.17b16572.chunk.js.LICENSE.txt",
+    "static/media/robot-listening.bd138e28.gif": "/Robot-joke/static/media/robot-listening.bd138e28.gif",
+    "static/media/robot-not-found.6feefce6.svg": "/Robot-joke/static/media/robot-not-found.6feefce6.svg",
+    "static/media/robot-searching.049cc040.gif": "/Robot-joke/static/media/robot-searching.049cc040.gif",
+    "static/media/robot-talking.9719b4bf.gif": "/Robot-joke/static/media/robot-talking.9719b4bf.gif",
+    "static/media/robot.a4372432.svg": "/Robot-joke/static/media/robot.a4372432.svg",
+    "static/media/settings.46a87e86.png": "/Robot-joke/static/media/settings.46a87e86.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f98982eb.js",
+    "static/js/2.17b16572.chunk.js",
+    "static/css/main.6712fc92.chunk.css",
+    "static/js/main.c35794a7.chunk.js"
+  ]
+}
