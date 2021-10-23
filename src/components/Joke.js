@@ -1,6 +1,6 @@
-function Joke({joke}) {
+function Joke({joke, className}) {
   return ( 
-      <p>{joke}</p>
+      <p className={className}>{joke}</p>
   );
 }
 

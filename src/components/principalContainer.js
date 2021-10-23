@@ -18,16 +18,14 @@ export default function PrincipalContainer(){
 
     return ( 
         <section tabIndex="0" className={sty.joke_container}>
-          <RobotImg src={imgUrl} className="a" width="50"/>
-
-          {/* <Settings/> */}
           <SettingButton/>
+          <RobotImg src={imgUrl} className={sty.robot_img}/>
           
-          <Joke joke={jokes}/>
+          <Joke joke={jokes} className={sty.joke_text}/>
 
-          <ButtonChange/>
-
-          {
+        <div className={sty.joke_buttons}>
+          <ButtonChange className={sty.joke_button_joke}/>
+        {
           (jokes !=='')
             ? 
             <Speaker
@@ -35,8 +33,8 @@ export default function PrincipalContainer(){
             langVal={setting.lang}/> 
             :null
           }
-        
-        </section>
+        </div>     
+      </section>
      );
 
      

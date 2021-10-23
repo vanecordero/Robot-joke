@@ -15,17 +15,26 @@ export default function useJoke(){
             {lang: setting['lang'], category: setting['category']}
             ).then(res => {
                 setJoke(res)
-                setImgUrl(UseImg('default'))
+                if(res.error){
+                  setImgUrl(UseImg('error'))
+                }else{
+                  setImgUrl(UseImg('default'))
+                }
+                
             })
     },[setting,setImgUrl])   
 
-      if(joke !== undefined && joke.type ==='twopart'){
-        return ({ jokes:`${joke.setup}. ${joke.delivery}`})
-       }else if(joke !== undefined && joke.type ==='single'){
-          return ({ jokes: joke.joke})
-       } else{
-         return { jokes:''}
-       }
+      if(!joke.error){
+        if(joke !== undefined && joke.type ==='twopart'){
+          return ({ jokes:`${joke.setup}. ${joke.delivery}`})
+         }else if(joke !== undefined && joke.type ==='single'){
+            return ({ jokes: joke.joke})
+         } else{
+           return { jokes:''}
+         }
+      } else{
+        return {jokes: joke.message}
+      }
 
 
 }

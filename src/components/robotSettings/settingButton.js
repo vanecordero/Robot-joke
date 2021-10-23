@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Settings from './settings';
-import icon from 'img/settings.svg'
+import icon from 'img/settings.png'
 import sty from './settings.module.css'
 
 function SettingButton() {
@@ -11,16 +11,16 @@ function SettingButton() {
     }
 
     return (
-        <>
-        <button type="button" onClick={handleClick}
-        className={sty.setting_button}>
-            <img src={icon} alt="Settings button"
-            className={sty.setting_img}/>
-        </button>
-        {
-            (show)?<Settings/>:null
-        }
-        </>
+        <div className={sty.setting_container}>
+            <button type="button" onClick={handleClick}
+            className={sty.setting_button}>
+                <img src={icon} alt="Settings button"
+                className={(show)?sty.rotate:null}/>
+            </button>
+            {
+                (show)?<Settings className={(show)? sty.fadeInLeft:sty.fadeOutLeft}/>:null
+            }
+        </div>
       );
 }
 

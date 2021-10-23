@@ -6,14 +6,19 @@ export default function GetJokes({lang, category}={}){
     .then(res => res.json())
     .then(response =>{  
         const {type} = response  
-      if (type ==="twopart"){
+        const {error} = response  
+      if(!error){
+        if (type ==="twopart"){
           const {setup} = response
           const {delivery} = response
-        return {setup, delivery, type}
-            
+        return {setup, delivery, type, error}            
       }else{     
           const {joke} = response
-        return {joke, type}
+        return {joke, type, error}
+      }
+      }else{
+        const {message} = response
+        return {error, message}
       }
      
     })

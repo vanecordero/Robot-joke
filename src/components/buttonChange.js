@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import  SettingContext  from 'context/settingsContext';
 
-function ButtonChange() {
+function ButtonChange({className}) {
     const {setting, setSetting} = useContext(SettingContext)
     
     const handleClick=()=>{
@@ -9,7 +9,7 @@ function ButtonChange() {
     }
     
     return ( 
-        <button type="button" onClick={handleClick}>Tell me a joke</button>
+        <button type="button" onClick={handleClick} className={className}>find another joke</button>
      )
 }
 

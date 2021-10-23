@@ -3,7 +3,7 @@ import  SettingContext  from "context/settingsContext";
 import { SettingOptions } from "service/SettingOptions";
 const SETTINGS_OPTIONS = SettingOptions
 
-function Settings() {
+function Settings({className}) {
   const {setting, setSetting} = useContext(SettingContext)
   
  //Update options
@@ -12,18 +12,23 @@ function Settings() {
   }
   
   return ( 
-  <form>
+  <form className={className}>
     {
     Object.keys(SETTINGS_OPTIONS).map(opt=>{            
       return <div key={"div_"+opt}>
+        <div>
           <label htmlFor={opt}>{opt}</label>
-          <select name={opt} defaultValue={Object.keys(SETTINGS_OPTIONS[opt])[0]} onChange={handleChanges}> 
+        </div>
+        <div>
+          <select name={opt}
+          defaultValue={Object.keys(SETTINGS_OPTIONS[opt])[0]} onChange={handleChanges}> 
           {
             Object.values(SETTINGS_OPTIONS[opt]).map((val, i)=>{ 
               return <option key={"opt_"+val} value={Object.keys(SETTINGS_OPTIONS[opt])[i]}>{val}</option>
             })
           }
-          </select>
+          </select>          
+        </div>
       </div>
     })
     }

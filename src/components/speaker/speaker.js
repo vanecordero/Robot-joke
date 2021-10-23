@@ -56,7 +56,6 @@ function Speaker({joke, langVal}) {
         let utterThis = new SpeechSynthesisUtterance(jokeText)
 
         utterThis.onend = function (e) {
-            console.log('SpeechSynthesisUtterance.onend');
             setImgUrl(UseImg('default'))
             window.speechSynthesis.cancel()
         }
@@ -65,7 +64,6 @@ function Speaker({joke, langVal}) {
         }           
         
         for(let i = 0; i < VOICES.length ; i++) {
-            console.log('for bucle')
             if(VOICES[i].name === lang) {
                 console.log('encontrado')
                 utterThis.voice = VOICES[i];
@@ -73,33 +71,20 @@ function Speaker({joke, langVal}) {
             }
         }
 
-        if(utterThis.voice===null){
-        alert('This browser only supports English speaker')
+        if(utterThis.voice===null&& langVal!=='en'){
+        alert('This browser only supports English speaker. Please try in another browser, ex: Google Chrome')
         }            
         synth.speak(utterThis)
     }
 
     return ( 
         <span className={sty.speak_button}>
-          <button onClick={handleClick}>🕪</button>
+          <button onClick={handleClick}>
+          📣
+          </button>
         </span>
         
      );
 }
 
 export default Speaker;
-
-/*
-
-<option data-lang="en-GB" data-name="Microsoft George - English (United Kingdom)">Microsoft George - English (United Kingdom) (en-GB) -- DEFAULT</option>
-
-<option data-lang="es-ES" data-name="Google español">Google español (es-ES)</option>
-
-<option data-lang="de-DE" data-name="Google Deutsch">Google Deutsch (de-DE)</option>
-
-<option data-lang="fr-FR" data-name="Google français">Google français (fr-FR)</option>
-
-<option data-lang="pt-BR" data-name="Google português do Brasil">Google português do Brasil (pt-BR)</option>
-
-
-*/ 
