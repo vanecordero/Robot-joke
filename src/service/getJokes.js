@@ -1,6 +1,6 @@
 
 export default function GetJokes({lang, category}={}){
-    const apiURL = `https://v2.jokeapi.dev/joke/${category}?lang=${lang}`
+    const apiURL = `https://v2.jokeapi.dev/joke/${category}?lang=${lang}&blacklistFlags=religious,racist,sexist,explicit`
 
     return fetch(apiURL)
     .then(res => res.json())
