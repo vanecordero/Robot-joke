@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Robot-joke/static/css/main.b15b453b.chunk.css",
+    "main.css": "/Robot-joke/static/css/main.e06df54d.chunk.css",
     "main.js": "/Robot-joke/static/js/main.adfe1293.chunk.js",
     "main.js.map": "/Robot-joke/static/js/main.adfe1293.chunk.js.map",
     "runtime-main.js": "/Robot-joke/static/js/runtime-main.f98982eb.js",
@@ -10,7 +10,7 @@
     "static/js/3.c5ec0f9c.chunk.js": "/Robot-joke/static/js/3.c5ec0f9c.chunk.js",
     "static/js/3.c5ec0f9c.chunk.js.map": "/Robot-joke/static/js/3.c5ec0f9c.chunk.js.map",
     "index.html": "/Robot-joke/index.html",
-    "static/css/main.b15b453b.chunk.css.map": "/Robot-joke/static/css/main.b15b453b.chunk.css.map",
+    "static/css/main.e06df54d.chunk.css.map": "/Robot-joke/static/css/main.e06df54d.chunk.css.map",
     "static/js/2.17b16572.chunk.js.LICENSE.txt": "/Robot-joke/static/js/2.17b16572.chunk.js.LICENSE.txt",
     "static/media/robot-listening.bd138e28.gif": "/Robot-joke/static/media/robot-listening.bd138e28.gif",
     "static/media/robot-not-found.6feefce6.svg": "/Robot-joke/static/media/robot-not-found.6feefce6.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.f98982eb.js",
     "static/js/2.17b16572.chunk.js",
-    "static/css/main.b15b453b.chunk.css",
+    "static/css/main.e06df54d.chunk.css",
     "static/js/main.adfe1293.chunk.js"
   ]
 }
